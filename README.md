@@ -7,11 +7,18 @@ Folder settings are sorted out.
 
 Before running set `${CAFFE_ROOT}`.
 
+
+## Setting on BIL servers
+
 On BIL servers, add the following to your `~/.bashrc'.
 ```
 export CAFFE_ROOT=/BIL/caffe
 ```
 
+In addition, symbolic link for the built caffe tool is here.
+```
+sudo ln -s /BIL/caffe/build/tools/caffe /usr/local/bin/caffe
+```
 
 # Examples
 
