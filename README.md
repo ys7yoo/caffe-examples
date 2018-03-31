@@ -59,6 +59,11 @@ sudo ln -s /BIL/caffe/build/tools/caffe /usr/local/bin/caffe
    I0401 01:07:55.807709 24408 caffe.cpp:347] accuracy = 0.9917
    I0401 01:07:55.807723 24408 caffe.cpp:347] loss = 0.02727 (* 1 = 0.02727 loss)
    ```
+   
+   
+See [Training LeNet on MNIST with Caffe](http://caffe.berkeleyvision.org/gathered/examples/mnist.html) for more information.
+
+
 # Tutorial 
 * [link](https://github.com/ys7yoo/BrainCaffe/wiki/Caffe-Tutorial-:-6.Interface-(Kor))
    
