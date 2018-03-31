@@ -39,10 +39,20 @@ sudo ln -s /BIL/caffe/build/tools/caffe /usr/local/bin/caffe
    ${CAFFE_ROOT}/build/tools/caffe train --solver examples/mnist/lenet_solver.prototxt 
    ```
    
+   On BIL servers, you can simply
+   ```
+   caffe train --solver examples/mnist/lenet_solver.prototxt 
+   ```   
+   
 4. Test
    ```
    ${CAFFE_ROOT}/build/tools/caffe test -model examples/mnist/lenet_train_test.prototxt -weights examples/mnist/lenet_iter_10000.caffemodel -gpu 0 -iterations 100
    ```
+
+   On BIL servers, you can simply
+   ```
+   caffe test -model examples/mnist/lenet_train_test.prototxt -weights examples/mnist/lenet_iter_10000.caffemodel -gpu 0 -iterations 100
+   ```   
 
    ```
    I0331 21:08:06.555085 17670 caffe.cpp:335] Loss: 0.0289139
