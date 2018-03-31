@@ -55,9 +55,9 @@ sudo ln -s /BIL/caffe/build/tools/caffe /usr/local/bin/caffe
    ```   
 
    ```
-   I0331 21:08:06.555085 17670 caffe.cpp:335] Loss: 0.0289139
-   I0331 21:08:06.555094 17670 caffe.cpp:347] accuracy = 0.9902
-   I0331 21:08:06.555102 17670 caffe.cpp:347] loss = 0.0289139 (* 1 = 0.0289139 loss)
+   I0401 01:07:55.807698 24408 caffe.cpp:335] Loss: 0.02727
+   I0401 01:07:55.807709 24408 caffe.cpp:347] accuracy = 0.9917
+   I0401 01:07:55.807723 24408 caffe.cpp:347] loss = 0.02727 (* 1 = 0.02727 loss)
    ```
 # Tutorial 
 * [link](https://github.com/ys7yoo/BrainCaffe/wiki/Caffe-Tutorial-:-6.Interface-(Kor))
